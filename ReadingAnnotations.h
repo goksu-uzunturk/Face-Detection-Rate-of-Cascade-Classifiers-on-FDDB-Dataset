@@ -18,8 +18,8 @@ public:
 	ReadingAnnotations(string path0, string path1, string path2); //constructer
 
 	string Annotations_Image_Paths(); // The function returns the path of test images by reading annotations 
-									  // 1st function call returns the path of 1st test image, 2nd function call returns the path of 2nd test image etc.
+					  // 1st function call returns the path of 1st test image, 2nd function call returns the path of 2nd test image etc.
 
 	tuple<int, int*, int*, int*, int*> Annotations_Coordinates(); // The function returns the number of faces and the corner coodinates of the faces in the test images 
-																  // 1st function call returns the number of faces and the corner coordinates of the faces in the 1st test image, 2nd function call returns the number of faces and the corner coordinates of the faces in the 2nd test image
+								      // 1st function call returns the number of faces and the corner coordinates of the faces in the 1st test image, 2nd function call returns the number of faces and the corner coordinates of the faces in the 2nd test image
 };
