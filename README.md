@@ -3,7 +3,7 @@
 # Reading Annotations
   The annotations presented by FDDB are read.
   
-  FDDB-dataset presents the annotations for 5171 human faces in a set of 2845 images. The annotations are given in txt files. There are 20 txt files which belong to 10 different groups of images. Each group contains approximately the annotations of 280 images. For each group, one txt file (such as FDDB-fold-01.txt) contains the path of the images the other txt file (such as FDDB-fold-01-ellipseList.txt) gives the corresponding annotations (the number of faces, the center coordinate of the faces in the image, etc.). That is, FDDB-fold-[i]-ellipseList.txt file presents the annotations related to the image specified by the corresponding FDDB-fold-[i].txt file, where ‘i’ is a number from 01 to 10. 
+  FDDB-dataset presents the annotations for 5171 human faces in a set of 2845 images. The annotations are given in txt files. There are 20 txt files which belong to 10 different groups of images. Each group contains approximately the annotations of 280 images. For each group, one txt file (such as FDDB-fold-01.txt) contains the path of the images the other txt file (such as FDDB-fold-01-ellipseList.txt) gives the corresponding annotations (the number of faces, the center coordinate of the faces in the image, etc.).
   
 The link for FDDB database: http://vis-www.cs.umass.edu/fddb/
   
