@@ -20,7 +20,7 @@ void Testing(int number_of_test_images)
     int total_missing_detection = 0;
     int total_same_detection = 0;
 
-    string path0 = "C:/Users/User/Desktop/Face Detection Staj/Test Images/" ; //path of FDDB dataset
+    string path0 = "C:/Users/User/Desktop/Face Detection Staj/Test Images/" ; //path of FDDB images
     string path1 = "C:/Users/User/Desktop/Face Detection Staj/Annotations/FDDB-fold-01.txt"; //path of FDDB annotation txt file which indicates path of test images
     string path2 = "C:/Users/User/Desktop/Face Detection Staj/Annotations/FDDB-fold-01-ellipseList.txt"; // path of FDDB annotation txt file which indicates cooradinates of test iamges
     string path3 = "C:/Users/User/Downloads/opencv/sources/data/haarcascades/haarcascade_frontalface_alt.xml"; //path of cascade classifier
